@@ -1,0 +1,166 @@
+body {
+  font-family: "Montserrat";
+  text-align: center;
+}
+
+h1 {
+  font-family: " Montserrat-black", sans-serif;
+  font-size: 3.5rem;
+  line-height: 1.5;
+  font-weight: 900;
+}
+h2 {
+  font-family: "Montserrat-bold", sans-serif;
+  font-size: 2rem;
+  line-height: 1.5;
+  font-weight: bold;
+}
+h3 {
+  font-family: "Montserrat-bold", sans-serif;
+  font-size: 2rem;
+
+  font-weight: bold;
+}
+p {
+  font-family: " Montserrat-black", sans-serif;
+}
+
+#title {
+  text-align: left;
+  color: white;
+  background-color: #ff4c68;
+ 
+}
+
+.container-fluid {
+  padding: 3% 15% 7%;
+}
+
+/* Navigation Bar */
+.navbar {
+  padding-bottom: 0 0 4.5rem;
+}
+.navbar-brand {
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+.nav-item {
+  padding: 0 18px;
+}
+.nav-link {
+  font-size: 1.2rem;
+  font-family: "Montserrat-light", sans-serif;
+  font-weight: bold;
+}
+
+/* Download button*/
+.download-button {
+  margin: 5% 3% 5% 0;
+  font-family: "Montserrat-light", sans-serif;
+  
+}
+/*Title image */
+.iphone-img {
+  width: 60%;
+  transform: rotate(25deg);
+}
+.title-row {
+  margin-top: 5%;
+}
+/*Features section */
+#features {
+  padding: 7% 15%;
+  background-color: #fff;
+  
+  
+}
+
+.feature-box {
+  font-family: "Montserrat-black", sans-serif;
+  padding: 4.5%;
+}
+
+.icon {
+  color: #ef8172;
+  margin-bottom: 1rem;
+}
+
+.icon:hover {
+  color: #ff4c68;
+}
+/* Testimonials */
+#testimonials {
+  background-color: #ef8172;
+}
+em {
+  color: white;
+  font-weight: bold;
+}
+.testimonial-image {
+  border-radius: 100%;
+  width: 15%;
+  margin-top: 3px;
+}
+.carousel-item {
+  padding: 7% 15%;
+}
+
+#press {
+  background-color: #ef8172;
+  padding-bottom: 3%;
+}
+
+.press-logo {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+/*Pricing Section */
+
+#pricing {
+  text-align: center;
+  padding: 100px;
+}
+
+.pricing-column {
+  padding: 3% 2%;
+}
+
+/*Media Query */
+@media (max-width: 1028px) {
+  #title {
+    text-align: center; /*Everything will be centred in tab/mobile mode  */
+  }
+  .iphone-img {
+    position: static;
+    transform: rotate(0); /*O deg makes img to e straight up */
+  }
+}
+
+.button-signup {
+  margin: 20px auto; /*here margin from top & bottom will be 20px and left & right will be auto to keep it centred */
+}
+
+/*CTA Section */
+
+#cta {
+  background-color: #ff4c68;
+
+  color: #fff;
+  padding: 7% 15% 3%;
+}
+/*Footer Section */
+#footer {
+  padding: 7% 15% 20%;
+}
+
+.social-media-icon {
+  margin: 5% 3%;
+  font-size: 2rem;
+}
+
+.social-media-icon:hover {
+  background-color: #000;
+  color: #fff;
+}
